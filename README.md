@@ -25,7 +25,7 @@ This script is based off a combination of my clock.lua script and my rings.lua s
                     ALSO, if you change your Conky, is it best to use "killall conky; conky" to update it, 
                     otherwise the update_num will not be reset and you will get an error.
 
-***Note***: If your battery is not showing than you are probabbly using another format exc (BAT1 or BAT2) instead of BAT0 which is the default on.
+***Note***: If your battery is not showing than you are probabbly using another format exc (BAT1 or BAT2) instead of BAT0 which is the default one.
 <br />To fix this issue change line **65** in **conkyrc** file:
 
 from: ***${battery_percent}%***<br />
