@@ -29,7 +29,7 @@ To call this script in Conky, use the following in your conkyrc:
 	lua_load ~/.fluxbox/conky/conky_blue/clock_rings.lua
 	lua_draw_hook_pre clock_rings
 
-Changelog:
+###Changelog:###
 * v1.0 -->  Original release (30.09.2009)
 * v1.1p -->   Jpope edit londonali1010 (05.10.2009)
 * vX 2011mint --> reEdit despot77 (18.02.2011)
