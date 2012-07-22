@@ -6,12 +6,12 @@ Since its inception, Conky has changed significantly from its predecessor, while
 
 For more visit: http://conky.sourceforge.net/
 
-##Clock Rings##
-###clock_rings.lua###
-###conkyrc###
+##Configuration Files##
+clock_rings.lua
+conkyrc
 
 Configurations are modified and adapted by me.
------------------------------------------------------------------------------------------------------------------------
+
 
 Clock Rings by Linux Mint (2011) reEdited by A.U
 
@@ -55,8 +55,12 @@ Because I have used this conky configuration with fluxbox I have put it under .f
 
 3) Copy and paste all fonts from conky_blue/fonts directory to your fonts directory ~/.fonts
 
-4) Install conky: 
+4) Change weather location by editing conky_blue/accu_weather/rss/acc_rss
+	Replace your accuweather rss address in line 94
+	address="http://rss.accuweather.com/rss/liveweather_rss.asp?metric=1&locCode=EUR|XK|298740|PRISTINA"
+
+5) Install conky: 
 $ sudo apt-get install conky
 
-5) Start conky with this configuration:
+6) Start conky with this configuration:
 $ conky -c ~/.fluxbox/conky/conky_blue/
