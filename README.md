@@ -6,6 +6,7 @@ Since its inception, Conky has changed significantly from its predecessor, while
 
 For more visit: http://conky.sourceforge.net/
 
+![My image](https://github.com/altinukshini/conky_blue/raw/master/screenshot.png)
 ##Configuration Files##
 clock_rings.lua & conkyrc
 
