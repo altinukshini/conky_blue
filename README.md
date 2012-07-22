@@ -7,13 +7,9 @@ Since its inception, Conky has changed significantly from its predecessor, while
 For more visit: http://conky.sourceforge.net/
 
 ##Configuration Files##
-clock_rings.lua
-conkyrc
+clock_rings.lua & conkyrc
 
-Configurations are modified and adapted by me.
-
-
-Clock Rings by Linux Mint (2011) reEdited by A.U
+Clock Rings by Linux Mint (2011) reEdited by me.
 
 This script draws percentage meters as rings, and also draws clock hands if you want! It is fully customisable; all options are described in the script. 
 This script is based off a combination of my clock.lua script and my rings.lua script.
@@ -36,7 +32,7 @@ Changelog:
   + v1.0 -->  Original release (30.09.2009)
   v1.1p -->   Jpope edit londonali1010 (05.10.2009)
   *v 2011mint --> reEdit despot77 (18.02.2011)
-  *v 2012 --> A.U reEdit (22.07.2012)
+  *v 2012 --> Altin reEdit (22.07.2012)
                        - Added weather function (Accu Weather)
                        - Added battery monitoring
                        - Syslog monitoring
