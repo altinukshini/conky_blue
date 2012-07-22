@@ -29,19 +29,19 @@ To call this script in Conky, use the following (assuming that you save this scr
            lua_draw_hook_pre clock_rings
 
 Changelog:
-+ v1.0 -->  Original release (30.09.2009)
-+ v1.1p -->   Jpope edit londonali1010 (05.10.2009)
-+ vX 2011mint --> reEdit despot77 (18.02.2011)
-+ vX 2012 --> Altin reEdit (22.07.2012)
-++ Added weather function (Accu Weather)
-++ Added battery monitoring
-++ Syslog monitoring
-++ Running processes monitoring
-++ Rearanged rings
-++ Exctra network functions/monitoring
-++ Changed Fonts
+* v1.0 -->  Original release (30.09.2009)
+* v1.1p -->   Jpope edit londonali1010 (05.10.2009)
+* vX 2011mint --> reEdit despot77 (18.02.2011)
+* vX 2012 --> Altin reEdit (22.07.2012)
+ 	* Added weather function (Accu Weather)
+ 	* Added battery monitoring
+ 	* Syslog monitoring
+ 	* Running processes monitoring
+ 	* Rearanged rings
+ 	* Exctra network functions/monitoring
+ 	* Changed Fonts
 
-#SETUP#
+##SETUP##
 
 Because I have used this conky configuration with fluxbox I have put it under .fluxbox folder on my home directory.
 
@@ -53,13 +53,13 @@ Because I have used this conky configuration with fluxbox I have put it under .f
 
 4) Change weather location by editing conky_blue/accu_weather/rss/acc_rss
 
-	Replace your accuweather rss address in line 94
+Replace your accuweather rss address in line 94
 	address="http://rss.accuweather.com/rss/liveweather_rss.asp?metric=1&locCode=EUR|XK|298740|PRISTINA"
 
 5) Install conky: 
 
-$ sudo apt-get install conky
+	$ sudo apt-get install conky
 
 6) Start conky with this configuration:
 
-$ conky -c ~/.fluxbox/conky/conky_blue/
+	$ conky -c ~/.fluxbox/conky/conky_blue/
