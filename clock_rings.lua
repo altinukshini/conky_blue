@@ -1,5 +1,5 @@
 --[[
-# Clock Rings by Linux Mint (2011) reEdited by A.U
+# Clock Rings by Linux Mint (2011) reEdited by Altin.
 # 
 # This script draws percentage meters as rings, and also draws clock hands if you want! It is fully customisable; all options are described in the script. 
 # This script is based off a combination of my clock.lua script and my rings.lua script.
@@ -14,22 +14,23 @@
 #                     ALSO, if you change your Conky, is it best to use "killall conky; conky" to update it, 
 #                     otherwise the update_num will not be reset and you will get an error.
 #
-# To call this script in Conky, use the following (assuming that you save this script to ~/scripts/rings.lua):
-#            lua_load ~/.fluxbox/conky/conky_blue/clock_rings.lua
-#            lua_draw_hook_pre clock_rings
+# To call this script in Conky, use the following in your conkyrc:
+#
+#	lua_load ~/.fluxbox/conky/conky_blue/clock_rings.lua
+#	lua_draw_hook_pre clock_rings
 #
 # Changelog:
-#   + v1.0 -->  Original release (30.09.2009)
-#   v1.1p -->   Jpope edit londonali1010 (05.10.2009)
-#   *v 2011mint --> reEdit despot77 (18.02.2011)
-#   *v 2012 --> A.U reEdit (22.07.2012)
-#                        - Added weather function (Accu Weather)
-#                        - Added battery monitoring
-#                        - Syslog monitoring
-#                        - Running processes monitoring
-#                        - Rearanged rings
-#                        - Exctra network functions/monitoring
-#                        - Changed Fonts
+#   * v1.0 -->  Original release (30.09.2009)
+#   * v1.1p -->   Jpope edit londonali1010 (05.10.2009)
+#   * vX 2011mint --> reEdit despot77 (18.02.2011)
+#   * vX 2012 --> Altin reEdit (22.07.2012)
+# 	* Added weather function (Accu Weather)
+# 	* Added battery monitoring
+# 	* Syslog monitoring
+# 	* Running processes monitoring
+# 	* Rearanged rings
+# 	* Exctra network functions/monitoring
+# 	* Changed Fonts
 ]]
 
 settings_table = {
