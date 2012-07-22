@@ -6,8 +6,8 @@ Since its inception, Conky has changed significantly from its predecessor, while
 
 For more visit: http://conky.sourceforge.net/
 
-<img src="https://github.com/altinukshini/conky_blue/raw/master/screenshot.png" align="left" alt="Screenshot" />
 ##Configuration Files##
+<img src="https://github.com/altinukshini/conky_blue/raw/master/screenshot.png" align="left" style="paddig-right: 10px;" alt="Screeshot" />
 clock_rings.lua & conkyrc
 
 Clock Rings by Linux Mint (2012) reEdited by Altin.
