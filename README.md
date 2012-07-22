@@ -1,4 +1,4 @@
-#About Conky
+#About Conky#
 
 Conky is free software and runs in X on Linux and BSD. Originally a fork of Torsmo, Conky's torsmo-based code is BSD licensed. New code in Conky has been licensed under the GPL 3.0.
 
@@ -6,9 +6,9 @@ Since its inception, Conky has changed significantly from its predecessor, while
 
 For more visit: http://conky.sourceforge.net/
 
-##Clock Rings
-###clock_rings.lua
-###conkyrc
+##Clock Rings##
+###clock_rings.lua###
+###conkyrc###
 
 Configurations are modified and adapted by me.
 -----------------------------------------------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ Changelog:
                        - Exctra network functions/monitoring
                        - Changed Fonts
 
-#SETUP
+#SETUP#
 
 Because I have used this conky configuration with fluxbox I have put it under .fluxbox folder on my home directory.
 
