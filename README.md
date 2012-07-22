@@ -24,6 +24,13 @@ This script is based off a combination of my clock.lua script and my rings.lua s
                     conversely if you update Conky every 0.5s, you should use update_num>10. 
                     ALSO, if you change your Conky, is it best to use "killall conky; conky" to update it, 
                     otherwise the update_num will not be reset and you will get an error.
+***Note***: If your battery is not showing than you are probabbly using another format exc (BAT1 or BAT2) instead of BAT0 which is the default on.
+
+To fix this issue change the code on line 65:
+
+from: ***${battery_percent}%***
+
+to: ***${battery_percent BAT1}%***
 
 To call this script in Conky, use the following in your conkyrc:
 
