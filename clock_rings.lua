@@ -1,5 +1,5 @@
 --[[
-# Clock Rings by Linux Mint (2011) reEdited by Altin.
+# Clock Rings by Linux Mint (2012) reEdited by Altin.
 # 
 # This script draws percentage meters as rings, and also draws clock hands if you want! It is fully customisable; all options are described in the script. 
 # This script is based off a combination of my clock.lua script and my rings.lua script.
