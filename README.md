@@ -14,7 +14,7 @@ Clock Rings by Linux Mint (2011) reEdited by me.
 This script draws percentage meters as rings, and also draws clock hands if you want! It is fully customisable; all options are described in the script.
 This script is based off a combination of my clock.lua script and my rings.lua script.
 
-IMPORTANT: If you are using the 'cpu' function, it will cause a segmentation fault if it tries to draw a ring straight away. 
+**IMPORTANT**: If you are using the 'cpu' function, it will cause a segmentation fault if it tries to draw a ring straight away. 
                     The if statement on line 324 uses a delay to make sure that this doesn't happen. 
                     It calculates the length of the delay by the number of updates since Conky started. 
                     Generally, a value of 5s is long enough, so if you update Conky every 1s, 
@@ -25,8 +25,9 @@ IMPORTANT: If you are using the 'cpu' function, it will cause a segmentation fau
                     otherwise the update_num will not be reset and you will get an error.
 
 To call this script in Conky, use the following (assuming that you save this script to ~/scripts/rings.lua):
-           lua_load ~/.fluxbox/conky/conky_blue/clock_rings.lua
-           lua_draw_hook_pre clock_rings
+
+	lua_load ~/.fluxbox/conky/conky_blue/clock_rings.lua
+	lua_draw_hook_pre clock_rings
 
 Changelog:
 * v1.0 -->  Original release (30.09.2009)
@@ -45,15 +46,16 @@ Changelog:
 
 Because I have used this conky configuration with fluxbox I have put it under .fluxbox folder on my home directory.
 
-1) Create a directory named "conky" under ~/.fluxbox
+1) Create a directory named **conky** under **~/.fluxbox**
 
-2) Paste the "conky_blue" folder under ~/.fluxbox/conky
+2) Paste the **conky_blue** folder under **~/.fluxbox/conky**
 
-3) Copy and paste all fonts from conky_blue/fonts directory to your fonts directory ~/.fonts
+3) Copy and paste all fonts from conky_blue/fonts directory to your fonts directory **~/.fonts**
 
 4) Change weather location by editing conky_blue/accu_weather/rss/acc_rss
 
 Replace your accuweather rss address in line 94
+
 	address="http://rss.accuweather.com/rss/liveweather_rss.asp?metric=1&locCode=EUR|XK|298740|PRISTINA"
 
 5) Install conky: 
